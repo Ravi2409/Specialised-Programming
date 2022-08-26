@@ -19,15 +19,10 @@ public class practice {
 
                 return dp[n];
             }
-
-
-
-    //public static int jump(int input){
-    //}
     public static void main(String[] args){
         int input=5;
-    //    Scanner sc = new Scanner(System.in);
-      //  input=sc.nextInt();
+       Scanner sc = new Scanner(System.in);
+       input=sc.nextInt();
         System.out.println(stairs(input));
 
     }
